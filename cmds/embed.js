@@ -8,14 +8,14 @@ module.exports.run = async (bot, message, args) => {
     message.delete().catch(() => { }); 
     let embed = new Discord.RichEmbed()
     .setColor('RANDOM')
-    .addField(sayMessage,)
+    .addField(sayMessage)
     message.channel.send(embed);   
   }; 
 
 
   exports.help = {
-    name: 'av',
-    category: 'Bot Information',
-    description: 'displays users avatar',
-    usage: 'av' 
+    name: 'embed',
+    category: 'misc',
+    description: 'embeds a message',
+    usage: ':embed [message]' 
 };

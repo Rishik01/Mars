@@ -16,7 +16,7 @@ exports.run = async (bot, message) => {
     };
   exports.help = {
     name: 'flipcoin',
-    category: 'random',
+    category: 'misc',
     description: 'flips a coin',
     usage: 'flipcoin'
   };

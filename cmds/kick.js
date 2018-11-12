@@ -15,7 +15,7 @@ module.exports.run = async (bot, message) => {
 
 exports.help = {
   name: 'kick',
-  category: 'kick',
-  description: 'kicks a member',
-  usage: 'kick'
+  category: 'Moderation',
+  description: 'kicks the specified user',
+  usage: 'kick [mention]'
 };

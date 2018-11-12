@@ -10,10 +10,10 @@ module.exports.run = async (bot, message) => {
   message.channel.send(embed);
 }
 exports.help = {
-  name: 'av',
+  name: 'inv',
   category: 'Bot Information',
-  description: 'displays users avatar',
-  usage: 'av' 
+  description: 'sends an invite link for the bot',
+  usage: 'inv' 
 };
 
 

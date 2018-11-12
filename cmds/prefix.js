@@ -22,6 +22,8 @@ module.exports.run = async (bot, message, args) => {
 
   message.channel.send(sEmbed);
 }
-module.exports.help = {
-  name: "prefix"
-}
+exports.help = {
+  name: 'prefix',
+  description: 'changes the bots default prefix',
+  usage: 'prefix [desired prefix]'
+};
