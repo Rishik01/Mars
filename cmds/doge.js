@@ -18,8 +18,7 @@ module.exports.run = async (bot, message, args) => {
 
 
   exports.help = {
-    name: 'av',
-    category: 'Bot Information',
-    description: 'displays users avatar',
-    usage: 'av' 
+    name: 'doge',
+    description: 'sends a randomly generated picture of a dog',
+    usage: 'doge' 
 };

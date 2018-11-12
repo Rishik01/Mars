@@ -24,8 +24,7 @@ module.exports.run = async (client, message, args) => {
     };
   exports.help = {
     name: 'eval',
-    category: 'eval idk',
-    description: 'evalsr',
+    description: 'evals',
     usage: 'eval'
   
   };
