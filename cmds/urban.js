@@ -9,6 +9,7 @@ urban(str).first(json => {
 console.log(json);
     let embed = new Discord.RichEmbed()
     .setTitle(json.word)
+    .setColor('RANDOM')
     .setDescription(json.definition)
     .addField("Upvotes", json.thumbs_up, true)
     .addField("Downvotes", json.thumbs_down, true)
