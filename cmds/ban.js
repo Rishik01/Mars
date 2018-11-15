@@ -1,4 +1,3 @@
-
 module.exports.run = async (bot, message, args) => {
 
   if(!message.member.hasPermission("BAN_MEMBERS")) return message.reply("You need permission to ban members");

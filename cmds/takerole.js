@@ -16,6 +16,12 @@ module.exports.run = async (bot, message, args) => {
       message.channel.send(`<@${rMember.id}> was removed from the ${gRole.name} role.`)
     }
 
+    exports.conf = {
+      enabled: true,
+      guildOnly: true,
+      aliases: [],
+      permLevel: "Moderator"
+    };
 
   exports.help = {
     name: 'takerole',

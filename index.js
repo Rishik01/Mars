@@ -3,7 +3,7 @@ const Enmap = require("enmap");
 const fs = require("fs");
 const bot = new Discord.Client({
 fetchAllMembers: true});
-const config = require("./config.json");
+const config = require("./config.js");
 bot.config = config;
 fs.readdir("./events/", (err, files) => {
   if (err) return console.error(err);

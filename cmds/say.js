@@ -6,7 +6,13 @@ module.exports.run = async (_bot, message, args) => {
   message.delete().catch(() => { }); 
     
   message.channel.send(sayMessage);   
-}; 
+};
+exports.conf = {
+  enabled: true,
+  guildOnly: true,
+  aliases: [],
+  permLevel: "Moderator"
+};
 exports.help = {
   name: 'say',
   category: 'random',

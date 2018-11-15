@@ -9,6 +9,12 @@ module.exports.run = async (bot, message) => {
     .setThumbnail(bot.avatarURL);
   message.channel.send(embed);
 }
+exports.conf = {
+  enabled: true,
+  guildOnly: true,
+  aliases: [],
+  permLevel: "User"
+};
 exports.help = {
   name: 'inv',
   category: 'Bot Information',

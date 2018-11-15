@@ -4,7 +4,12 @@ exports.run = async (bot, message) => {
         
       msg.edit(`Pong! latency is \`${msg.createdTimestamp - message.createdTimestamp}ms\``);
     };
-
+    exports.conf = {
+      enabled: true,
+      guildOnly: true,
+      aliases: [],
+      permLevel: "User"
+    };
   exports.help = {
     name: 'ping',
     category: 'Bot Information',

@@ -13,7 +13,12 @@ module.exports.run = async (bot, message, args) => {
     
   message.channel.send(`<@${rMember.id}> has been given the ${gRole.name} role.`)
 }
-
+exports.conf = {
+  enabled: true,
+  guildOnly: true,
+  aliases: [],
+  permLevel: "Moderator"
+};
 exports.help = {
   name: 'giverole',
   category: 'role management',

@@ -22,6 +22,7 @@
     "enmap": "^4.3.3",
     "eslint": "^5.9.0",
     "moment": "^2.22.2",
-    "superagent": "^4.0.0-beta.5"
+    "superagent": "^4.0.0-beta.5",
+    "urban": "^0.3.2"
   }
 }

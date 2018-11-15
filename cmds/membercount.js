@@ -32,6 +32,12 @@ module.exports.run = async (bot, message) => {
     
   message.channel.send(embed);
 };
+exports.conf = {
+  enabled: true,
+  guildOnly: true,
+  aliases: [],
+  permLevel: "User"
+};
 exports.help = {
   name: 'membercount',
   category: 'Bot Information',

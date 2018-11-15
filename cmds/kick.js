@@ -12,7 +12,12 @@ module.exports.run = async (bot, message) => {
     .catch(error => message.reply(`unable to kick ${message.author} ${error}`));
   message.reply(`${member.user.tag} has been succesfully kicked by ${message.author.tag}`);
 };
-
+exports.conf = {
+  enabled: true,
+  guildOnly: true,
+  aliases: [],
+  permLevel: "Moderator"
+};
 exports.help = {
   name: 'kick',
   category: 'Moderation',

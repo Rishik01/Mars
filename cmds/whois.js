@@ -79,6 +79,12 @@ function checkUserPermission(guild, message) {
 
   msg.edit(embed);
 }
+exports.conf = {
+  enabled: true,
+  guildOnly: true,
+  aliases: ['e'],
+  permLevel: "User"
+};
 
 exports.help = {
   name: 'whois',

@@ -5,6 +5,12 @@ exports.run = async (client, message, args, level) => {
   });
   process.exit(1);
 };
+exports.conf = {
+  enabled: true,
+  guildOnly: true,
+  aliases: [],
+  permLevel: "Bot Owner"
+};
 
 exports.help = {
   name: "shutdown",

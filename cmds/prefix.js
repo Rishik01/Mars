@@ -22,6 +22,12 @@ module.exports.run = async (bot, message, args) => {
 
   message.channel.send(sEmbed);
 }
+exports.conf = {
+  enabled: true,
+  guildOnly: true,
+  aliases: [],
+  permLevel: "User"
+};
 exports.help = {
   name: 'prefix',
   description: 'changes the bots default prefix',
